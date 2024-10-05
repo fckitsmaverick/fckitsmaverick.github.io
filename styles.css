@@ -54,16 +54,14 @@ footer {
     /* Full width */
     height: 100%;
     /* Full height */
-    overflow: hidden;
-    /* Prevent scrolling */
     background-color: rgba(255, 255, 255, 0.9);
     /* White background with slight opacity */
+    display: flex;
+    /* Use flexbox to center content */
     justify-content: center;
     /* Center content horizontally */
     align-items: center;
     /* Center content vertically */
-    display: flex;
-    /* Use flexbox to align items */
 }
 
 .modal-content {
@@ -78,6 +76,7 @@ footer {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
     /* Optional: shadow effect */
 }
+
 
 
 .close {
