@@ -1,6 +1,3 @@
-// Placeholder for future JavaScript functionality
-console.log("Welcome to my personal website!");
-
 let currentIndex = 0; // To keep track of the currently displayed image
 
 function openCarousel(index) {
@@ -12,7 +9,7 @@ function openCarousel(index) {
     currentIndex = index; // Set the current index to the clicked image
     modalImage.src = images[currentIndex].src; // Set the modal image source
     caption.innerHTML = images[currentIndex].alt; // Set the caption
-    modal.style.display = "block"; // Show the modal
+    modal.style.display = "flex"; // Show the modal
 
     // Add keyboard navigation
     document.addEventListener('keydown', navigateCarousel);
