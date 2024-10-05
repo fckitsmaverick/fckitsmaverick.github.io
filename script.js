@@ -8,8 +8,8 @@ function openCarousel(index) {
     const modalImage = document.getElementById('modalImage');
     const caption = document.getElementById('caption');
 
-    currentIndex = index; // Set the current index to the clicked image
     const images = document.querySelectorAll('.gallery img');
+    currentIndex = index; // Set the current index to the clicked image
     modalImage.src = images[currentIndex].src; // Set the modal image source
     caption.innerHTML = images[currentIndex].alt; // Set the caption
     modal.style.display = "block"; // Show the modal
