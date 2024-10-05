@@ -31,6 +31,8 @@ main {
     width: 100%;
     height: auto;
     border-radius: 8px;
+    cursor: pointer;
+    /* Make images clickable */
 }
 
 footer {
@@ -46,6 +48,7 @@ footer {
     display: none;
     /* Hidden by default */
     position: fixed;
+    /* Stay in place */
     z-index: 999;
     /* Sit on top */
     left: 0;
@@ -79,6 +82,7 @@ footer {
 
 .close {
     position: absolute;
+    /* Position the close button */
     top: 15px;
     right: 35px;
     color: white;
