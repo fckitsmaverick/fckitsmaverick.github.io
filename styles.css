@@ -67,10 +67,15 @@ footer {
     /* Center content vertically */
 }
 
+.modal-content-container {
+    text-align: center;
+    /* Center the content inside this container */
+}
+
 .modal-content {
     max-width: 90%;
     /* Adjust max width */
-    max-height: 90%;
+    max-height: 80vh;
     /* Adjust max height */
     border: 2px solid #ccc;
     /* Optional: add border around the image */
@@ -78,6 +83,15 @@ footer {
     /* Optional: round corners of the image */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
     /* Optional: shadow effect */
+}
+
+.modal-caption {
+    margin-top: 10px;
+    /* Space between image and caption */
+    color: #333;
+    /* Caption text color */
+    font-size: 16px;
+    /* Caption text size */
 }
 
 .close {
