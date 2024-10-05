@@ -68,8 +68,14 @@ footer {
 }
 
 .modal-content-container {
+    display: flex;
+    /* Use flexbox to align items */
+    flex-direction: column;
+    /* Stack image and caption vertically */
+    align-items: center;
+    /* Center items horizontally */
     text-align: center;
-    /* Center the content inside this container */
+    /* Center the caption */
 }
 
 .modal-content {
