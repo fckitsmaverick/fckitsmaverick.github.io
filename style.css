@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    /* Adjust the font to match the example */
+    background-color: #f4f4f4;
+}
+
+.menu {
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #282828;
+    padding-top: 20px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul li {
+    padding: 10px;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu ul li a:hover {
+    color: #f9ca24;
+}
+
+.content {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}

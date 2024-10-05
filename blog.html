@@ -1,126 +1,24 @@
-# Let's create a basic HTML structure and incorporate CSS and JavaScript to simulate the desired functionality
-
-html_content = """
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simulated Blog Page</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        /* Body and Font Settings */
-        body {
-            font-family: "Noto Sans", Arial, sans-serif;
-            line-height: 1.8;
-            background-color: #f0f4f8;
-            /* Light background */
-            margin: 0;
-            padding: 0;
-            color: #333;
-        }
-
-        /* Header Styling */
-        header {
-            background: #0e101c;
-            color: #ffffff;
-            padding: 15px 0;
-            text-align: center;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        header nav a {
-            color: #ffffff;
-            margin: 0 20px;
-            text-decoration: none;
-            font-weight: 600;
-        }
-
-        header nav a:hover {
-            color: #ffcf5c;
-        }
-
-        /* Main Section */
-        main {
-            max-width: 1200px;
-            margin: 40px auto;
-            padding: 20px;
-            background-color: #ffffff;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-        }
-
-        h2 {
-            color: #0e101c;
-            font-size: 2rem;
-            margin-bottom: 20px;
-        }
-
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        ul li {
-            margin: 20px 0;
-            font-size: 1.2em;
-        }
-
-        ul li a {
-            color: #0e101c;
-            text-decoration: none;
-            font-weight: bold;
-            border-bottom: 2px solid transparent;
-            transition: border-bottom 0.2s;
-        }
-
-        ul li a:hover {
-            border-bottom: 2px solid #ffcf5c;
-        }
-
-        /* Footer Styling */
-        footer {
-            text-align: center;
-            padding: 15px 0;
-            background: #0e101c;
-            color: #fff;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+    <title>Blog</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <h1>My Simulated Blog</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="blog.html">Blog</a>
-        </nav>
-    </header>
-
-    <main>
-        <section>
-            <h2>Recent Posts</h2>
-            <ul>
-                <li><a href="#">Exploring Culture in City A</a></li>
-                <li><a href="#">A Beautiful Journey to City B</a></li>
-                <li><a href="#">Reflections on History</a></li>
-            </ul>
-        </section>
-    </main>
-
-    <footer>
-        <p>© 2024 Your Name</p>
-    </footer>
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <h1>Blog</h1>
+        <p>List of blog posts</p>
+    </div>
 </body>
 
 </html>
-"""
-
-with open('/mnt/data/simulated_blog.html', 'w') as file:
-file.write(html_content)
-
-"/mnt/data/simulated_blog.html created successfully!"
